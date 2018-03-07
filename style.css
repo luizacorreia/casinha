@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.tela{
+	width: 100%;
+	height: 500px;
+	background-color: #000000;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.casa{
+	width: 700px;
+	height:500px ;
+	background-color: #696969;
+	position: relative;
+	/*left: 300px;*/
+}
+.porta{
+	width: 150px;
+	height: 200px;
+	background-color: #B5B5B5;
+	position: absolute;
+	bottom: 0;
+	right: 300px;
+}
+.janela{
+	width: 200px;
+	height: 100px;
+	background-color: #CFCFCF;
+	position: absolute;
+}
+.j1{
+	right: 70px;
+	top: 20px;
+}
+.j2{
+	left: 70px;
+	top: 20px;
+}
+.rio{
+	width: 100%;
+	height: 40px;
+	background-color: #3A5FCD;
+	position: fixed;
+	bottom: 120px;
+}
